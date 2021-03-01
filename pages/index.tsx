@@ -1,9 +1,17 @@
 import Head from "next/head";
-import { hostname } from "os";
+import React from "react";
+import { Navbar } from "../components/navbar";
 import styles from "../styles/Home.module.css";
 
 export const Home = () => {
-  return <div>My deploy script test lmaooo</div>;
-}
+  return (
+    <div>
+      <Head>
+        <title>Personal Website</title>
+      </Head>
+      <Navbar />
+    </div>
+  );
+};
 
 export default Home;

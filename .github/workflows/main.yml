@@ -25,7 +25,7 @@ jobs:
       - name: Create static files
         run: npm run deploy
       - name: create .nojekyll file
-        run: touch ./out/nojekyll
+        run: touch ./out/.nojekyll
       - name: GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:

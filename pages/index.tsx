@@ -4,96 +4,23 @@ import { Navbar } from "../components/navbar";
 import Particles from "react-tsparticles";
 import { config } from "../util/ts-particles-config";
 
-import styles from "../styles/Home.module.css";
-
 export const Home = () => {
   return (
     <div>
       <Head>
         <title>Personal Website</title>
       </Head>
-      <Particles
-        id="tsparticles"
-        options={{
-          background: {
-            color: {
-              value: "#0d47a1",
-            },
-          },
-          fpsLimit: 60,
-          interactivity: {
-            detectsOn: "canvas",
-            events: {
-              onClick: {
-                enable: true,
-                mode: "push",
-              },
-              onHover: {
-                enable: true,
-                mode: "repulse",
-              },
-              resize: true,
-            },
-            modes: {
-              bubble: {
-                distance: 400,
-                duration: 2,
-                opacity: 0.8,
-                size: 40,
-              },
-              push: {
-                quantity: 4,
-              },
-              repulse: {
-                distance: 200,
-                duration: 0.4,
-              },
-            },
-          },
-          particles: {
-            color: {
-              value: "#ffffff",
-            },
-            links: {
-              color: "#ffffff",
-              distance: 150,
-              enable: true,
-              opacity: 0.5,
-              width: 1,
-            },
-            collisions: {
-              enable: true,
-            },
-            move: {
-              direction: "none",
-              enable: true,
-              outMode: "bounce",
-              random: false,
-              speed: 6,
-              straight: false,
-            },
-            number: {
-              density: {
-                enable: true,
-                value_area: 800,
-              },
-              value: 80,
-            },
-            opacity: {
-              value: 0.5,
-            },
-            shape: {
-              type: "circle",
-            },
-            size: {
-              random: true,
-              value: 5,
-            },
-          },
-          detectRetina: true,
-        }}
-      />
+      <Particles id="tsparticles" className="particles" options={config} />
       <Navbar />
+      <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+        <div className="flex-shrink-0">
+          <img className="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo" />
+        </div>
+        <div>
+          <div className="text-xl font-medium text-black">ChitChat</div>
+          <p className="text-gray-500">You have a new message!</p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 export const config = {
     background: {
         color: {
-            value: "#0d47a1",
+            value: "#000000",
         },
     },
     fpsLimit: 60,
@@ -36,20 +36,13 @@ export const config = {
     },
     particles: {
         color: {
-            value: "#ffffff",
-        },
-        links: {
-            color: "#ffffff",
-            distance: 150,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
+            value: "#FF0000",
         },
         collisions: {
             enable: true,
         },
         move: {
-            direction: "none",
+            direction: "top",
             enable: true,
             outMode: "bounce",
             random: false,

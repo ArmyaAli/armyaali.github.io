@@ -3,7 +3,9 @@ import React from "react";
 export const InfoCard = () => {
   return (
     <div>
-        InfoCard
+        <img src="" alt=""/>
+        <div></div>
+        
     </div>
   );
 };

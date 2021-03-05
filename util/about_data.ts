@@ -18,8 +18,6 @@ export const shorts = {
     ],
     "Where": [
         "Toronto, ON, Canada",
-        "Born in Islamabad, Pakistan, came to Canada at one year of age",
-        "Grew up in Toronto",
     ],
     "When": [
         "present",

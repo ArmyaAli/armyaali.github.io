@@ -16,13 +16,11 @@ export const LandingPageContent = () => {
           programming and learning different kinds of technologies. Currently a
           student at Seneca College studying Computer Engineering Technology. I
           am not much of an artist but I tried to make this website look cool.
-          It's built using Nextjs, TailwindCSS and hosted on Github Pages!
-          
-          Interests: Video Game programming, Rust programming language,
+          It is built using Nextjs + TailwindCSS and it is hosted on Github
+          Pages! Interests: Video Game programming, Rust programming language,
           Distributed Systems, Linux, Operating Systems, Compiler Design...
         </p>
-
-        <Link href="/aboutme">
+        <Link href="/about">
           <button className="bg-red-800 w-full xl:w-96 h-16 opacity-50 rounded hover:opacity-100 mb-8 mt-8">
             Explore
           </button>

@@ -11,7 +11,6 @@ export const Home = () => {
       <Head>
         <title>Personal Website</title>
       </Head>
-      <Particles id="tsparticles" className="particles" options={config} />
       <LandingPageContent />
     </div>
   );

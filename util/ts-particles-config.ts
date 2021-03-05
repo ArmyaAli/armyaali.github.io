@@ -46,7 +46,7 @@ export const config = {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 6,
+            speed: 7,
             straight: false,
         },
         number: {
@@ -54,7 +54,7 @@ export const config = {
                 enable: true,
                 value_area: 800,
             },
-            value: 80,
+            value: 100,
         },
         opacity: {
             value: 0.5,

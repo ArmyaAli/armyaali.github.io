@@ -3,7 +3,7 @@ import Card from "../components/card";
 import { fivews, shorts } from "./about_data";
 export const About = () => {
   return (
-    <div className="flex bg-red-500">
+    <div className="flex flex-wrap">
       {fivews.map((w) => (
         <Card
           title={w}

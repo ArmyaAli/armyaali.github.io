@@ -1,9 +1,9 @@
-import "../../styles/globals.css";
+import "../styles/globals.css";
 import "tailwindcss/tailwind.css";
 import { AppProps } from "next/app";
 import React from "react";
 import Particles from "react-tsparticles";
-import { config } from "../../util/ts-particles-config";
+import { config } from "../util/ts-particles-config";
 
 
 const App = ({ Component, pageProps }: AppProps) => {

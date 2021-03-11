@@ -10,13 +10,15 @@ export const Card = (props: CardProps) => {
   return (
     <div className="text-white my-8 mx-auto bg-red-800 rounded bg-opacity-50">
       <div className="text-4xl text-center m-4">{props.title}</div>
-      <div className="w-64">
-        <ul className="m-4">
+      <hr/>
+      <div className="w-96">
+        <ul className="m-2 list-disc p-4">
           {props.shortlist.map((item) => (
-            <li>{item}</li>
+            <li className="">{item}</li>
           ))}
         </ul>
-        <p className="m-4">
+        <hr/>
+        <p className="m-2">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam
         architecto minus at cumque quis quae quia voluptatum repellat, ullam
         veniam laborum earum reprehenderit illum non necessitatibus totam

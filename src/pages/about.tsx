@@ -5,7 +5,7 @@ import { fivews, shorts } from "../util/about_data";
 export const About = () => {
   return (
     <div>
-        <Navbar />
+      <Navbar />
       <div className="flex flex-wrap">
         {fivews.map((w) => (
           <Card

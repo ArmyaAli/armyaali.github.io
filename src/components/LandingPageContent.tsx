@@ -20,7 +20,7 @@ export const LandingPageContent = () => {
           Pages! Interests: Video Game programming, Rust programming language,
           Distributed Systems, Linux, Operating Systems, Compiler Design...
         </p>
-        <Link href="/dummy">
+        <Link href="/about">
           <button className="bg-red-800 w-full xl:w-96 h-16 opacity-50 rounded hover:opacity-100 mb-8 mt-8">
             Explore
           </button>

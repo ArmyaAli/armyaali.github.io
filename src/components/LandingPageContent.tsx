@@ -26,16 +26,16 @@ export const LandingPageContent = () => {
           </button>
         </Link>
       </div>
-      <a
-        className="demo m-auto xl:w-2/5"
-        href="https://github.com/ArmyaAli/Mushroom_Fighter"
-      >
+        <a
+            className="demo m-auto xl:w-2/5"
+            href="https://github.com/ArmyaAli/Mushroom_Fighter"
+        >
         <img
-          className="hover:opacity-75"
-          src="mushroom_fighter_demo.gif"
-          height={512}
-          width={1024}
-          alt=""
+            className="hover:opacity-75"
+            src="mushroom_fighter_demo.gif"
+            height={512}
+            width={1024}
+            alt=""
         />
       </a>
     </div>

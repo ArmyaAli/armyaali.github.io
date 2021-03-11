@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../components/card";
 import { Navbar } from "../components/navbar";
-import { fivews, shorts } from "../util/about_data";
+import { fivews, shorts } from "../../util/about_data";
 export const About = () => {
   return (
     <div>

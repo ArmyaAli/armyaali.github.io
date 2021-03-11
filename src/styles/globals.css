@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .particles {
   position: fixed;
   max-width: 100%;
@@ -8,4 +12,3 @@
   right: 0;
   left: 0;
 }
-
